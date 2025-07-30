@@ -1,4 +1,5 @@
-# **State Of the Nation Address 2025 🇵🇭**
+## **Take on SONA July 2025 of Pres. Ferdinand R. Marcos Jr.**
+### **by Tala Crisologo // 9 - Potassium**
 
 ### **Interesting Parts of SONA ━━━━━━━━━━━**
 1. President Marcos stating PhilHealth now covers kidney transplants and that money has been allocated for cancer prevention.  
