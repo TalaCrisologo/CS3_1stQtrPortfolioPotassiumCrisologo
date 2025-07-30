@@ -16,3 +16,4 @@ I think that many of the projects that President Marcos stated in his address ar
 There were also many protests that happened during Marcos' speech. Even though Marcos aims to lower the price of meat and rice, he still didn't make any move to deal with the rising inflation. Marcos had many warnings towards the corrupt officials that he called out in his speech, but had no mention of Sara Duterte or her impeachment. I'm glad that there are many well-meaning projects, but we have yet to see if the government can deliver all of its promises properly.
 
 **Word of the day:** *Unlad*.
+[SONA Stream] (https://youtu.be/YOoX7EVIOMA?si=3Tz_OY4LLqXVG9C2)
