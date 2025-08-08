@@ -18,3 +18,6 @@ There were also many protests that happened during Marcos' speech. Even though M
 **Word of the day:** *Unlad*.
 
 [SONA Stream](https://youtu.be/YOoX7EVIOMA?si=3Tz_OY4LLqXVG9C2)
+
+
+![BBM SONA](https://media.philstar.com/photos/2023/07/24/ferdinand-marcos-sona-2023_2023-07-24_18-48-55.jpg)
