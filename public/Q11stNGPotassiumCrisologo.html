@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
 
+<style>
+    body {
+        background-color: #fad564;
+        margin: 0; /* remove default browser margins */
+    }
+
+    #text {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Comic Sans MS', cursive;
+        color: #000000;
+        margin-top: 100px;
+    }
+
+    #green {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #ref {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    }
+
+
+</style>
+</head>
+
+<body>
+
+        <a id="ref" href="./public/ProjectReferences.html">References!</a>
+
+        <img src="pictures/sourpatchkids.png" style=height:200px;>
+        <img id="green" src="pictures/green.png" style=height:200px>
+
+    <div id="text"></div>
+
+    <script>
+        var age = 15;
+        var maxAge = 120;
+        var numPerDay = 2;
+        var totalRequired = (numPerDay * 365) * (maxAge - age);
+
+        document.getElementById("text").textContent =
+            "You will need " + totalRequired + " individual green sour patch kids to last you until the ripe old age of " + maxAge + ".";
+    </script>
+
+</body>
+</html>
