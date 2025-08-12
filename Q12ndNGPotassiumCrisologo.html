@@ -1,0 +1,18 @@
+<script>
+    let age = window.prompt("Enter your age ", "15");
+let maxAge = window.prompt("Enter your max age", "120" );
+let numPerDay = window.prompt("Enter amount consumed per day ", "2" );
+
+let totalRequired = (numPerDay * 365) * (maxAge-age);
+
+let sure = window.confirm(`Are ${age}, ${maxAge}, ${numPerDay} the correct values?`)
+
+if(sure==true){
+document.write("You will need " + totalRequired + " individual green sour patch kids ");
+
+}
+
+else{
+  document.write("Run the code again.")
+}
+  </script>
