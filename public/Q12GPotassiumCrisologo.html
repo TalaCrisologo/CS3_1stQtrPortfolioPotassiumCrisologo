@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2> Q1 3rd Graded Exercise submitted by Tala Crisologo of 9-Potassium </h2>
+
+
+  <div> Meal price:
+    <br />
+    <input id="inp_mp">
+    <br> Tip: <br />
+    <input id="inp_tip">
+    <br> Service Charge:<br />
+    <input id="inp_sc">
+    <button id="btn_submit">Submit</button>
+  </div>
+
+  <div id="output_area">
+    
+  </div>
+
+<script>
+  var btn = document.getElementById("btn_submit");
+  btn.addEventListener('click', totalMeal);
+
+    function totalMeal() {
+      let mp = +document.getElementById("inp_mp").value;
+      let tip = +document.getElementById("inp_tip").value;
+      let sc = +document.getElementById("inp_sc").value;
+      let totalCost = mp + tip + (sc / 100 * mp);
+      document.getElementById("output_area").innerHTML = `<p>Total Meal is: ${totalCost.toFixed(2)}</p>`;
+
+    }
+      </script>
+</body>
