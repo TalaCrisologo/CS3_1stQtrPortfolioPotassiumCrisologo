@@ -3,7 +3,9 @@
 
 ### **What did you learn or got some practice on? ━━━━━━━━━━━**
 L1. I was able to practice the syntax of for loops.
+
 L2. I was able to learn how to push elements into arrays. I also practiced how to use for loops to populate arrays.
+
 L3. I was able to practice adding elements into arrays, and I also learned how to prevent duplicating letters. This was a bit difficult to think of at first, but I was able to do it.
 
 ### **Final Reflection ━━━━━━━━━━━**
