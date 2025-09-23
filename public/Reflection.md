@@ -1,4 +1,4 @@
-## Reflections by Tala Crisologo
+## Q1 Reflections by Tala Crisologo
 
 ### List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
 1. Variable declaration - This was easy because its the same for Python and C++. I got a lot of practice with this because I had to do it in every exercise.
