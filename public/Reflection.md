@@ -1,3 +1,5 @@
+## Reflections by Tala Crisologo
+
 ### List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with two to five sentences.
 1. Variable declaration - This was easy because its the same for Python and C++. I got a lot of practice with this because I had to do it in every exercise.
 2. All kinds of loops - I've been working with loops for almost two years now. There were a lot of exercises where I could practice these loops, and they are very similar to C++.
