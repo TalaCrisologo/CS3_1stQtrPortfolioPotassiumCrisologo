@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess My Word</title>
+  <style>
+    body {
+  font-family: 'Spectral', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6e4c3;
+    }
+
+    header {
+      background-color: #f6e9d0;
+      color: rgb(89, 53, 64);
+      padding: 32px;
+      text-align: center;
+    }
+
+    section {
+      background-color: #f6e4c3;
+      color: rgb(89, 53, 64);
+      padding: 24px;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      font-size: 19.2px;
+      padding: 4.8px;
+      margin-top: 16px;
+    }
+
+    button {
+      font-family: 'Spectral', serif;
+      font-size: 19.2px;
+      padding: 4.8px 16px;
+      margin-left: 8px;
+      background-color: rgb(89, 53, 64);
+      color: #f6e9d0;
+      border: none;
+      cursor: pointer;
+    }
+
+    #wordDisplay {
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Guess My Word</h1>
+  </header>
+
+  <section>
+    <p id="wordDisplay"></p>
+    <input type="text" id="guessInput" maxlength="1">
+    <button onclick="makeGuess()">Guess</button>
+    <p id="message"></p>
+  </section>
+
+  <script>
+    let secretWord = ["T", "e", "r", "r", "e", "s", "t", "r", "i", "a", "l", "T", "a", "l", "a"];
+    let guessedWord = ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_","_", "_"];
+
+    document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
+
+    function makeGuess() {
+      let guess = document.getElementById("guessInput").value;
+      let correct = false;
+
+      for (let i = 0; i < secretWord.length; i++) {
+        if (secretWord[i] === guess) {
+          guessedWord[i] = secretWord[i];
+          correct = true;
+        }
+      }
+
+      document.getElementById("wordDisplay").textContent = guessedWord.join(" ");
+      document.getElementById("message").textContent = correct ? "✅ Correct!" : "❌ Try again.";
+      document.getElementById("guessInput").value = "";
+    }
+  </script>
+</body>
+</html>

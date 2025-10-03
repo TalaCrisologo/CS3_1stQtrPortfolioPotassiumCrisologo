@@ -21,4 +21,3 @@ process.stdin.on('data', input => {
   process.exit(); // ends the code
 
 });
-
